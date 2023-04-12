@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "491983206151",
+    "project_id": "maishahostelbookingapp-f680a",
+    "storage_bucket": "maishahostelbookingapp-f680a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491983206151:android:2ff0ea470a49b3b85ff7a2",
+        "android_client_info": {
+          "package_name": "com.example.maishahostelbookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491983206151-dbggfbjv2p2i989rlgshbdvduq5i0pac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMHE7F4lXI8PXXBocmyIIJEn4nRee5L-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491983206151-dbggfbjv2p2i989rlgshbdvduq5i0pac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

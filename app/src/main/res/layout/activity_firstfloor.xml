@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".firstfloor">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Details "
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+            <EditText
+
+                android:id="@+id/etroomnumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="roomnumber"
+                android:inputType="text"
+                android:textColorHint="@color/black"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <!--for error!-->
+        <TextView
+            android:id="@+id/tvroomnumberError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Please enter room number"
+            android:textColor="@color/red"/>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+            <EditText
+
+                android:id="@+id/etcapacity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="capacity"
+                android:inputType="text"
+                android:textColorHint="@color/black"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvcapacityError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Please enter capacity of room"
+            android:visibility="gone"
+            android:textColorHint="@color/red"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+            <EditText
+
+                android:id="@+id/etAmount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Amount"
+                android:text="KShs:"
+                android:inputType="number"
+                android:textColorHint="@color/black"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Please enter amount"
+            android:textColor="@color/red"/>
+        <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Rent Caters for:"
+             android:textStyle="bold"
+             android:textAlignment="textStart"
+             android:textColor="@color/black"
+             android:textSize="14dp"
+             />
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/description"
+             android:hint="description"
+             android:textSize="15dp"
+             />-->
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:text="submit"/>
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:text="update"/>
+
+        <!--<androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="#dcdcdc"
+            android:id="@+id/btn_book">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Book"/>
+        </androidx.cardview.widget.CardView>-->
+
+        <!--sample button to submit entered data inside from edit text-->
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
